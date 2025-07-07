@@ -1,0 +1,28 @@
+/* Load css fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Global styling for all elements, global colors, layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+:root {
+  --violet: rgb(108 78 224);
+  --black-font: rgb(18 17 20);
+  --gray: rgb(142 142 145);
+}
+body, #root {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 100vw;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+}
